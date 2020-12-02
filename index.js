@@ -52,9 +52,9 @@ function selectSound(charSelection) {
 
 function buttonAnimation(currentKey) {
   var activeButton = document.querySelector("." + currentKey);
-  activeButton.classList.add("iseng");
+  activeButton.classList.add("pressed");
 
   setTimeout(function() {
-    activeButton.classList.remove("iseng");
+    activeButton.classList.remove("pressed");
   }, 1000)
 }
